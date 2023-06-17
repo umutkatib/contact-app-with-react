@@ -16,7 +16,7 @@ function Form( {addContact, contacts} ) {
     };
 
     const onSubmit = (e) => {
-        e.preventDefault();  // sayfanın submit oldugunda yenilenmesini engeller
+        e.preventDefault();  
 
         if(form.fullName === "" || form.phoneNumber === "") {
             return false;
